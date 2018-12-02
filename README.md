@@ -3,10 +3,14 @@ Description:
 
 backend: 
     技术栈：golang
+    
     功能:包含collect-server与client两个部分，client负责收集TiDB中执行sql的任务执行信息与监控信息，并上传到server。server暴漏出HTTP接口以供查询与展示。
-    design by github.com/malixian
+    
+    Designed by github.com/malixian
 
 frontend：
     技术栈：vue
+    
     功能：可以从输入框中输入sql语句，与server进行HTTP交互，通过返回的json数据，生成任务执行计划树图、监控信息图。
-    design by github.com/ZoeShaw101
+    
+    Designed by github.com/ZoeShaw101
