@@ -2,8 +2,8 @@ package client
 
 import (
 	"fmt"
-	"github.com/gin-gonic/gin/json"
-	"github.com/pkg/errors"
+	"encoding/json"
+    "github.com/pkg/errors"
 	"net/http"
 	"net/url"
 )
